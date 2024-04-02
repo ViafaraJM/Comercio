@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Comercio</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename = 'css/index.css') }}">
+    </head>
+    <body>
+        <header>
+            <div class="container-hero">
+                <div class="container hero">
+                    <div class="customer-support">
+                        <i class="fa-solid fa-headset"></i>
+                        <div class="content-customer-support">
+                            <span class="text">Soporte al cliente</span>
+                            <span class="number">123-456-789</span>
+                        </div>
+                    </div>
+
+                    <div class="container-logo">
+                        <i class="fa-solid fa-shop"></i>
+                        <h1 class="logo"><a href="/">Comercio</a></h1>
+                    </div>
+                    <div class="carrito">
+                        <img src="./static/img/cart.svg" alt="#">
+                        <div class="count-products-cart">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-navbar">
+                <nav class="navbar container">
+                    <i class="fa-solid fa-bars"></i>
+                    <ul class="menu">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Frutas</a></li>
+                        <li><a href="#">Verduras</a></li>
+                        <li><a href="#">Otros</a></li>
+                        <li><a href="#">Mas</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+
+                    <form class="search-form">
+                        <input type="search" placeholder="Buscar...">
+                        <button class="btn-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </nav>
+            </div>
+        </header>
+
+        <section class="banner">
+            <div class="content-banner">
+                <p>Mejor Calidad de Productos</p>
+                <h2>100% Garantizado <br>¿Que esperas?</h2>
+                <a href="#">Comprar Ahora</a>
+            </div>
+        </section>
+
+        <main class="main-content">
+            <section class="container-features">
+                <div class="card-feature">
+                    <i class="fa-solid fa-plane-up"></i>
+                    <div class="feature-content">
+                        <span>Envios gratis a todo COLOMBIA</span>
+                        <p>En pedido superior a $20.000</p>
+                    </div>
+                </div>
+                <div class="card-feature">
+                    <i class="fa-solid fa-wallet"></i>
+                    <div class="feature-content">
+                        <span>Reembolso</span>
+                        <p>Devolucion del dinero garantizado</p>
+                    </div>
+                </div>
+                <div class="card-feature">
+                    <i class="fa-solid fa-gift"></i>
+                    <div class="feature-content">
+                        <span>Tarjeta regalo</span>
+                        <p>Bonos especiales de regalo</p>
+                    </div>
+                </div>
+                <div class="card-feature">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="feature-content">
+                        <span>Servicio al cliente</span>
+                        <p>Llamanos 24/7 al 123-456-789</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container top-categories">
+                <h1 class="heading-1">Mejores Categorias</h1>
+                <div class="container-categories">
+                    <div class="card-category category-frutas">
+                        <p>Frutas</p>
+                        <span>Ver más</span>
+                    </div>
+                    <div class="card-category category-verduras">
+                        <p>Verduras</p>
+                        <span>Ver más</span>
+                    </div>
+                    <div class="card-category category-enlatados">
+                        <p>Enlatados</p>
+                        <span>Ver más</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container top-products">
+                <h1 class="heading-1">Mejores Productos</h1>
+                <div class="container-options">
+                    <span class="active">Destacados</span>
+                    <span>Mas recientes</span>
+                    <span>Mas Vendidos</span>
+                </div>
+                <div class="container-products">
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="./static/img/papaspollo.jpg" alt="#">
+                            <span class="discount">15%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h3>Cafe irish</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">$5.000 <span>7.900</span></p>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="./static/img/papaspollo.jpg" alt="#">
+                            <span class="discount">15%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h3>Cafe irish</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">$5.000 <span>7.900</span></p>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="./static/img/papaspollo.jpg" alt="#">
+                            <span class="discount">15%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h3>Cafe irish</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">$5.000 <span>7.900</span></p>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="card-product">
+                        <div class="container-img">
+                            <img src="./static/img/papaspollo.jpg" alt="#">
+                            <span class="discount">15%</span>
+                            <div class="button-group">
+                                <span>
+                                    <i class="fa-regular fa-eye"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-regular fa-heart"></i>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-code-compare"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content-card-product">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h3>Cafe irish</h3>
+                            <span class="add-cart">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </span>
+                            <p class="price">$5.000 <span>7.900</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="kart">
+                    <div class="header-carrito">
+                        <h2>Tu Carrito</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="container blogs">
+                <div class="body-details-product">
+                    <div class="info-product">
+                        <div class="features-product">
+                            <div class="feature-product shipping">
+                                <i class="fa-solid fa-truck-fast"></i>
+                                <h4>Envio Gratuito</h4>
+                                <p>Solo en ordenes por encima de $20.000</p>
+                            </div>
+                            <div class="feature-product return">
+                                <i class="fa-solid fa-phone-volume"></i>
+                                <h4>Devoluciones Faciles</h4>
+                                <p>Solo llamanos</p>
+                            </div>
+                            <div class="feature-product delivery">
+                                <i class="fa-solid fa-globe"></i>
+                                <h4>Envio Nacionales e Internacionales</h4>
+                                <p>Envios Nacionales Rapidos</p>
+                            </div>
+                            <div class="feature-product refund">
+                                <i class="fa-solid fa-money-bill-transfer"></i>
+                                <h4>Politicas de Devoluciones</h4>
+                                <p>60 dias para devolver</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container container-footer">
+                <div class="menu-footer">
+                    <div class="contact-info">
+                        <p class="title-footer">Informacion de contacto</p>
+                        <ul>
+                            <li>Direccion Medellin-Colombia</li>
+                            <li>Telefono 123-456-7890</li>
+                            <li>Email: comercio@comercio.com.co</li>
+                        </ul>
+                        <div class="social-icons">
+                            <span class="facebook"><i class="fa-brands fa-facebook"></i></span>
+                            <span class="twitter"><i class="fa-brands fa-twitter"></i></span>
+                            <span class="pinterest"><i class="fa-brands fa-pinterest-p"></i></span>
+                            <span class="instagram"><i class="fa-brands fa-instagram"></i></span>
+                            <span class="youtube"><i class="fa-brands fa-youtube"></i></span>
+                        </div>
+                    </div>
+                    <div class="information">
+                        <p class="title-footer">Informacion</p>
+                        <ul>
+                            <li><a href="#">Acerca de Nosotros</a></li>
+                            <li><a href="#">Informacion Envios</a></li>
+                            <li><a href="#">Politicas de Privacidad</a></li>
+                            <li><a href="#">Términos y Condiciones</a></li>
+                            <li><a href="#">Contáctanos</a></li>
+                        </ul>
+                    </div>
+                    <div class="newletter">
+                        <p class="title-footer">Boletin informativo</p>
+                        <div class="content">
+                            <p>
+                                Suscribete y siguenos en nuestras redes sociales ahora y mantente al dia con nuevos productos y ofertas exclusivas.
+                            </p>
+                            <input type="email" placeholder="Ingrese el correo aqui...">
+                            <button>Suscribete</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>
+                        Desarrollado por Sebastian Murillo, Carlos Marin, Carlos Gonzales y Johan Santamaria
+                    </p>
+                    <img src="./static/img/payment.jpg" alt="Pagos">
+                </div>
+            </div>
+        </footer>
+
+        <script
+            src="https://kit.fontawesome.com/81581fb069.js"
+            crossorigin="anonymous">
+        </script>
+    </body>
+</html>
